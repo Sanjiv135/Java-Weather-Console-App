@@ -15,7 +15,7 @@ public class CityWeather {
 
 
         // Your OpenWeatherMap API key
-        String apiKey = "9eaeab9f56709746f05372cdbaf30aa3"; // Replace with your real API key
+        String apiKey = "Replace with your real API key"; // Replace with your real API key
 
         try {// if something goes wrong (an exception is thrown), handle it instead of crashing the program.
             // Create API URL
@@ -57,3 +57,4 @@ public class CityWeather {
         sc.close();
     }
 }
+
